@@ -96,6 +96,7 @@ jobs:
           LLM_HERMES_MODELS: ${{ vars.LLM_HERMES_MODELS || secrets.LLM_HERMES_MODELS }}
           LLM_HERMES_ENABLED: ${{ vars.LLM_HERMES_ENABLED || secrets.LLM_HERMES_ENABLED }}
           REPORT_LANGUAGE: ${{ vars.REPORT_LANGUAGE }}
+          REPORT_LANGUAGE: 'Thai'
 
           # Gemini AI（主选）
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
